@@ -31,7 +31,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ${{ secrets.DOCKERHUB_USERNAME }}/rDockerQWE
+          images: ${{ secrets.DOCKERHUB_USERNAME }}/DockerQWE
           tags: |
             type=raw,value=latest
             type=sha
